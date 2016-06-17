@@ -1,4 +1,4 @@
-##  If the contents of a vector are not changing, it caches the inverse of the matrix 
+##  If the contents of a matrix are not changing, it caches the inverse of the matrix 
 ##  so that when we need it again, it can be looked up in the cache rather than recomputed.
 
 ## This function creates a special "matrix" object that can cache its inverse.
